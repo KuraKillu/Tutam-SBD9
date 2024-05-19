@@ -1,10 +1,14 @@
 import React from "react";
-import Navbar from './assets/Navbar';
+import Login from './pages/LoginPage';
+import Navbar from './assets/Navbar'
 
 function App(){
   return(
     <div>
       <Navbar/>
+      <div>
+        <Login/>
+      </div>
     </div>
   )
 }
