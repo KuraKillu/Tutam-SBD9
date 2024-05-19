@@ -1,7 +1,8 @@
 CREATE TABLE users(
-user_id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
-uname varchar(10) UNIQUE NOT NULL,
-password text NOT NULL);
+    user_id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    uname varchar(10) UNIQUE NOT NULL,
+    password text NOT NULL
+);
 
 CREATE TABLE kucheng(
   cat_id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
